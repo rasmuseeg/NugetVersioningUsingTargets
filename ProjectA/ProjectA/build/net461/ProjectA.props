@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <GetPackageVersionDependsOn>GeneratePackageVersion;$(GetPackageVersionDependsOn)</GetPackageVersionDependsOn>
+    <GenerateNuspecDependsOn>GeneratePackageVersion;$(GenerateNuspecDependsOn)</GenerateNuspecDependsOn>
+    <TargetsForTfmSpecificContentInPackage>GeneratePackageVersion;$(TargetsForTfmSpecificContentInPackage)</TargetsForTfmSpecificContentInPackage>
+  </PropertyGroup>
+</Project>
